@@ -162,6 +162,8 @@ header div {
 .middle-section div:first-child {
 	display: inline-block;
 	width: 49%;
+	padding: 1%;
+	padding-left: 0;
 	border: 2px solid blue;
 }
 
@@ -169,6 +171,8 @@ header div {
 	display: inline-block;
 	width: 49%;
 	margin-left: 13px;
+	padding: 1%;
+	padding-left: 0;
 	border: 2px solid blue;
 }
 
@@ -177,3 +181,26 @@ header div {
 	width: inherit;
 }
 
+.middle-section div:nth-child(4) {
+	display: inline-block;
+	width: 33%;
+	padding: 1%;
+	padding-left: 0;
+	border: 2px solid blue;
+}
+
+.middle-section div:nth-child(5) {
+	display: inline-block;
+	width: 33%;
+	padding: 1%;
+	padding-left: 0;
+	border: 2px solid blue;
+}
+
+.middle-section div:last-child {
+	display: inline-block;
+	width: 33%;
+	padding: 1%;
+	padding-left: 0;
+	border: 2px solid blue;
+}
