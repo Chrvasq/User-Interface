@@ -76,13 +76,12 @@ hr {
 	width: 900px;
 	margin: auto;
 	padding: 0.5%;
-	border: 2px solid red;
+	padding-top: 22px;
 }
 
 header {
 	width: 100%;
 	padding: 1% 0;
-	border: 2px solid blue;
 }
 
 nav {
@@ -90,14 +89,12 @@ nav {
 	height: 40px;
 	padding: 1% 0;
 	display: inline-block;
-	border: 2px solid blue;
 }
 
 nav a {
 	color: gray;
 	text-decoration: none;
 	margin: 4%;
-	border: 2px solid blue;
 }
 
 nav a:first-child {
@@ -108,26 +105,22 @@ header div {
 	display: inline-block;
 	width: 49%;
 	padding-left: 257px;
-	border: 2px solid blue;
 }
 
 .logo {
-	border: 2px solid blue;
 	vertical-align: top;
 	margin-left: 27px;
 }
 
 .top-section {
-	margin: 45px 0;
+	margin: 45px 0 60px 0;
 	padding: 1% 0;
-	border: 2px solid blue;
 }
 
 .top-section div:first-child {
 	width: 50%;
 	height: 383px;
 	display: inline-block;
-	border: 2px solid blue;
 }
 
 .top-section div h1 {
@@ -135,7 +128,6 @@ header div {
 	padding: 10%;
 	font-size: 80px;
 	white-space: pre-line;
-	border: 2px solid blue;
 }
 
 .top-section div:last-child {
@@ -149,14 +141,12 @@ header div {
 .top-section img {
 	vertical-align: top;
 	margin-left: 49px;
-	border: 2px solid blue;
 }
 
 .middle-section {
-	margin-bottom: 45px;
+	margin-bottom: 35px;
 	padding: 1% 0;
 	width: 100%;
-	border: 2px solid blue;
 }
 
 .middle-section div:first-child {
@@ -164,7 +154,6 @@ header div {
 	width: 49%;
 	padding: 1%;
 	padding-left: 0;
-	border: 2px solid blue;
 }
 
 .middle-section div:nth-child(2) {
@@ -173,7 +162,6 @@ header div {
 	margin-left: 13px;
 	padding: 1%;
 	padding-left: 0;
-	border: 2px solid blue;
 }
 
 .middle-img {
@@ -186,7 +174,6 @@ header div {
 	width: 33%;
 	padding: 1%;
 	padding-left: 0;
-	border: 2px solid blue;
 }
 
 .middle-section div:nth-child(5) {
@@ -194,7 +181,6 @@ header div {
 	width: 33%;
 	padding: 1%;
 	padding-left: 0;
-	border: 2px solid blue;
 }
 
 .middle-section div:last-child {
@@ -202,16 +188,11 @@ header div {
 	width: 33%;
 	padding: 1%;
 	padding-left: 0;
-	border: 2px solid blue;
 }
 
 .contact-section {
 	width: 25%;
-	border: 2px solid blue;
-}
-
-address {
-	border: 2px solid blue;
+	margin-top: 45px;
 }
 
 address p{
@@ -219,9 +200,12 @@ address p{
 }
 
 footer {
-	border: 2px solid blue;
 	width: 900px;
 	margin: auto;
 	padding: 0.5%;
 	text-align: center;
+}
+
+footer p {
+	margin-top: 25px; 
 }
