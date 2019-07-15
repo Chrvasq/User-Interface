@@ -28,20 +28,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -65,34 +70,64 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .container {
-	text-align: center;
-	margin: 50px 20% 0 20%;
+	width: 900px;
+	margin: auto;
+	/* padding: 1%; */
+	border: 2px solid red;
+}
+
+header {
+	width: 100%;
+	padding: 1% 0;
+	display: inline-block;
+	border: 2px solid blue;
 }
 
 nav {
+	width: 75%;
+	height: 40px;
+	padding: 1% 0;
 	display: inline-block;
+	border: 2px solid blue;
 }
 
 nav a {
 	color: gray;
 	text-decoration: none;
-	padding-left: 50px;
+	margin: 4%;
+	border: 2px solid blue;
 }
 
-nav a:last-child {
-	padding-right: 50px;
+nav a:first-child {
+	margin-left: 0;
+}
+
+header div {
+	display: inline-block;
+	width: 49%;
+	padding-left: 257px;
+	border: 2px solid blue;
+}
+
+.logo {
+	border: 2px solid blue;
+	vertical-align: top;
+	margin-left: 27px;
 }
 
 .top-section {
-	margin-bottom: 100px;
+	/* margin-bottom: 75px; */
+	border: 2px solid blue;
 }
+
 .top-section div {
 	display: inline-block;
+	border: 2px solid blue;
 }
 
 .top-section div h1 {
 	white-space: pre-line;
-	font-size: 100px;
+	border: 2px solid blue;
 }
 
 .top-section div:last-child {
@@ -104,6 +139,7 @@ nav a:last-child {
 
 .top-section img {
 	margin-left: 100px;
+	border: 2px solid blue;
 }
 
 hr {
@@ -118,13 +154,12 @@ hr {
 .left-column {
 	display: inline-block;
 	text-align: left;
-	/* word-wrap: break-word; */
-	width: 40%;
+	width: 50%;
 }
 
 .right-column {
 	display: inline-block;
 	text-align: left;
-	/* word-wrap: break-word; */
-	width: 40%;
+	width: 50%;
 }
+
