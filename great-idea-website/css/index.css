@@ -153,7 +153,7 @@ header div {
 }
 
 .middle-section {
-	margin-bottom: 25px;
+	margin-bottom: 45px;
 	padding: 1% 0;
 	width: 100%;
 	border: 2px solid blue;
@@ -203,4 +203,17 @@ header div {
 	padding: 1%;
 	padding-left: 0;
 	border: 2px solid blue;
+}
+
+.contact-section {
+	width: 25%;
+	border: 2px solid blue;
+}
+
+address {
+	border: 2px solid blue;
+}
+
+address p{
+	padding-bottom: 15px;
 }
