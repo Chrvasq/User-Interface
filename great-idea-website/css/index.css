@@ -72,14 +72,13 @@ h1, h2, h3, h4, h5 {
 .container {
 	width: 900px;
 	margin: auto;
-	/* padding: 1%; */
+	padding: 0.5%;
 	border: 2px solid red;
 }
 
 header {
 	width: 100%;
 	padding: 1% 0;
-	display: inline-block;
 	border: 2px solid blue;
 }
 
@@ -116,29 +115,37 @@ header div {
 }
 
 .top-section {
-	/* margin-bottom: 75px; */
+	margin: 45px 0;
+	padding: 1% 0;
 	border: 2px solid blue;
 }
 
-.top-section div {
+.top-section div:first-child {
+	width: 50%;
+	height: 383px;
 	display: inline-block;
 	border: 2px solid blue;
 }
 
 .top-section div h1 {
+	text-align: center;
+	padding: 10%;
+	font-size: 80px;
 	white-space: pre-line;
 	border: 2px solid blue;
 }
 
 .top-section div:last-child {
+	text-align: center;
+	width: 40%;
+	padding: 2%;
+	margin: -10% auto;
 	border: 1px solid black;
-	padding-left: 25px;
-	padding-right: 25px;
-	font-size: 24px;
 }
 
 .top-section img {
-	margin-left: 100px;
+	vertical-align: top;
+	margin-left: 49px;
 	border: 2px solid blue;
 }
 
