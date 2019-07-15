@@ -217,3 +217,11 @@ address {
 address p{
 	padding-bottom: 15px;
 }
+
+footer {
+	border: 2px solid blue;
+	width: 900px;
+	margin: auto;
+	padding: 0.5%;
+	text-align: center;
+}
