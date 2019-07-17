@@ -28,20 +28,25 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -64,3 +69,143 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+hr {
+	margin: 0 0 25px 0;
+}
+.container {
+	width: 900px;
+	margin: auto;
+	padding: 0.5%;
+	padding-top: 22px;
+}
+
+header {
+	width: 100%;
+	padding: 1% 0;
+}
+
+nav {
+	width: 75%;
+	height: 40px;
+	padding: 1% 0;
+	display: inline-block;
+}
+
+nav a {
+	color: gray;
+	text-decoration: none;
+	margin: 4%;
+}
+
+nav a:first-child {
+	margin-left: 0;
+}
+
+header div {
+	display: inline-block;
+	width: 49%;
+	padding-left: 257px;
+}
+
+.logo {
+	vertical-align: top;
+	margin-left: 27px;
+}
+
+.top-section {
+	margin: 45px 0 60px 0;
+	padding: 1% 0;
+}
+
+.top-section div:first-child {
+	width: 50%;
+	height: 383px;
+	display: inline-block;
+}
+
+.top-section div h1 {
+	text-align: center;
+	padding: 10%;
+	font-size: 80px;
+	white-space: pre-line;
+}
+
+.top-section div:last-child {
+	text-align: center;
+	width: 40%;
+	padding: 2%;
+	margin: -10% auto;
+	border: 1px solid black;
+}
+
+.top-section img {
+	vertical-align: top;
+	margin-left: 49px;
+}
+
+.middle-section {
+	margin-bottom: 35px;
+	padding: 1% 0;
+	width: 100%;
+}
+
+.middle-section div:first-child {
+	display: inline-block;
+	width: 49%;
+	padding: 1%;
+	padding-left: 0;
+}
+
+.middle-section div:nth-child(2) {
+	display: inline-block;
+	width: 49%;
+	margin-left: 13px;
+	padding: 1%;
+	padding-left: 0;
+}
+
+.middle-img {
+	margin: 30px 0;
+	width: inherit;
+}
+
+.middle-section div:nth-child(4) {
+	display: inline-block;
+	width: 33%;
+	padding: 1%;
+	padding-left: 0;
+}
+
+.middle-section div:nth-child(5) {
+	display: inline-block;
+	width: 33%;
+	padding: 1%;
+	padding-left: 0;
+}
+
+.middle-section div:last-child {
+	display: inline-block;
+	width: 33%;
+	padding: 1%;
+	padding-left: 0;
+}
+
+.contact-section {
+	width: 25%;
+	margin-top: 45px;
+}
+
+address p{
+	padding-bottom: 15px;
+}
+
+footer {
+	width: 900px;
+	margin: auto;
+	padding: 0.5%;
+	text-align: center;
+}
+
+footer p {
+	margin-top: 25px; 
+}
